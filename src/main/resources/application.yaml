@@ -1,0 +1,18 @@
+spring:
+  application:
+    name:  remind-sign-in
+  mail:
+    host: smtp.qq.com
+    username: 1923136366@qq.com
+    password: rdpcrrthprotcdbe
+    default-encoding: UTF-8
+    port: 587
+    to: chengxianga@163.com
+    properties:
+      mail:
+      smtp:
+      auth: true
+      socketFactory:
+      class: javax.net.ssl.SSLSocketFactory
+server:
+  port: 4399
